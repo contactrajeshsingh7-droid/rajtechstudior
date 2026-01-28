@@ -1,0 +1,328 @@
+:root {
+            --navbar-bg-start: #D7E6FF;
+            --navbar-bg-end: #D7E6FF;
+            --primary-color: #007bff;
+            --button-bg-start: #007bff;
+            --button-bg-end: #0056b3;
+            --text-color: #333;
+        }
+
+        body {
+          
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .navbar-container {
+            width: 99%;
+            background: linear-gradient(to right, var(--navbar-bg-start), var(--navbar-bg-end));
+            box-shadow: 0 5px 15px rgba(0, 123, 255, 0.1);
+            border-radius: 30px;
+            position: center;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: center; 
+            z-index: 1000;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            max-width: 1200px; 
+            height: 120px; 
+        }
+
+        .logo-container .logo {
+            max-height: 75x; 
+            width: auto;
+            display: block;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        .nav-links li a {
+            text-decoration: none;
+            color: var(--text-color);
+            margin: 0 40px;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-links li a:hover {
+            color: var(--primary-color);
+        }
+
+        .schedule-btn {
+            background: linear-gradient(to right, var(--button-bg-start), var(--button-bg-end));
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: transform 0.2s;
+        }
+
+        .schedule-btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .content-padding {
+            padding-top: 30px;
+            text-align: center;
+        }
+        
+
+                                                                                /*Conatct */
+.services-image-section {
+  background-color: #ffffff;   /* jo color chaho */
+  padding: 80px 20px;          /* thoda breathing space */
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.services-image-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.services-image-section h2 {
+  font-size: 42px;
+  margin-bottom: 25px;
+}
+ 
+
+body {
+  background: #fff;
+  padding: 60px 20px;
+}
+
+.contact-section {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.contact-section h1 {
+  font-size: 34px;
+  margin-bottom: 12px;
+  color: #0f2a44;
+}
+
+.contact-section p {
+  font-size: 18px;
+  margin-bottom: 50px;
+  color: #0f2a44;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.contact-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 30px;
+  text-align: left;
+  border: 1px solid #e5eaf1;
+  cursor: pointer;
+  transition: all 0.35s ease;
+}
+
+.contact-card .icon {
+  width: 48px;
+  height: 48px;
+  background: #1e3a8a;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.contact-card h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #0f2a44;
+}
+
+.contact-card p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #5b6b7c;
+}
+
+/* 🔥 Hover Effect */
+.contact-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+}
+
+/* 🔥 Active / Click Effect */
+.contact-card.active {
+  background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+}
+
+.contact-card.active h3,
+.contact-card.active p {
+  color: #fff;
+}
+
+.contact-card.active .icon {
+  background: #fff;
+  color: #1e3a8a;
+}
+
+
+
+
+
+
+
+                                                                                 /* Contact*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+                                                                                      .xft-brand .xft-logo {
+  width: 160px;        /* change as needed */
+  height: auto;        /* ratio safe */
+  padding: 16px 20px;  /* white box space */
+  background-color: #ffffff;
+  border-radius: 14px;
+  display: inline-block;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+/* FOOTER */
+.xantrip-footer {
+  background: #4a86e8;
+  padding: 60px 40px;
+  border-radius: 40px 40px 0 0;
+  margin: 0;              /* no bottom/left/right margin */
+  width: 100%;
+
+}
+
+/* CONTAINER */
+.xantrip-footer .xft-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  color: #fff;
+  max-width: 1200px;
+  margin: 0 auto;         /* center content only */
+}
+
+/* TEXT */
+.xantrip-footer h4 {
+  margin-bottom: 0px;
+  font-size: 18px;
+  
+}
+
+.xantrip-footer p {
+  margin: 12px 0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.xantrip-footer a {
+  display: block;
+  margin-bottom: 15px;
+  color: #eaf1ff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.xantrip-footer a:hover {
+  text-decoration: underline;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .xantrip-footer .xft-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .xantrip-footer {
+    padding: 0px 0px;
+  }
+
+  .xantrip-footer .xft-container {
+    grid-template-columns: 1fr;
+  }
+}
+.xantrip-footer {
+  background: #4a86e8;
+  padding: 60px 40px;
+  border-radius: 40px 40px 0 0;
+
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+
+
+/* COPYRIGHT BAR */
+.xft-copyright {
+  background-color: #3f78db;   /* footer se thoda dark */
+  color: #eaf1ff;
+  text-align: center;
+  font-size: 14px;
+  padding: 18px 12px;
+  line-height: 1.6;
+  margin-top: 1px;
+
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+
+/* SECOND LINE */
+.xft-copyright span {
+  display: block;
+  margin-top: 6px;
+  font-size: 13px;
+  opacity: 0.85;
+}
+
+body {
+  margin: 0;
+  padding-bottom: 0 !important;
+}
+
+
+.xft-copyright:last-child {
+  margin-bottom: 0;
+}
+.xantrip-footer .xft-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  color: #fff;
+  max-width: 1200px;
+
+  margin: 0 auto;
+  justify-items: start;   /* 👈 LEFT align columns */
+  text-align: left;       /* 👈 text bhi left */
+}
